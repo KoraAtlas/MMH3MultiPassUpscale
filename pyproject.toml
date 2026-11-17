@@ -1,0 +1,9 @@
+[project]
+name = "comfyui-mmh3-multipass-upscale"
+description = "Multi-pass, optionally tiled latent upscaling for MiniMax H3 AV latents."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.comfy]
+DisplayName = "MMH3 Multi-Pass Upscale"
