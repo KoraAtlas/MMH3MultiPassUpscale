@@ -32,6 +32,7 @@ Upscaling a video latent in one large step usually means a trade-off: low denois
 - MiniMax H3 model files (diffusion model, Qwen3-VL text encoder, video VAE, audio VAE), from [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3).
 - Optional: a turbo LoRA for fast base renders, and an H3 3D latent upscale model (`.safetensors`) in `models/latent_upscale_models`.
 - No extra Python packages.
+- (Optional, but highly recommended) a H3 latent upscale model, such as https://huggingface.co/LBH-123-AI/Minimax_h3_latent_Upscaler
 
 ## Install
 
